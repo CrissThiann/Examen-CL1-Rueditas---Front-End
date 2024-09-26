@@ -12,6 +12,7 @@
         h1{
             text-align: center;
         }
+
     </style>
 
 </head>
@@ -29,8 +30,7 @@
             <p>Color: <span th:text="${rueditasModel.color}"></span></p>
 
             <div class="d-grid">
-                <button type="submit" class="btn btn-primary btn-lg">Regresar</button>
-
+                <button th:href="@{/inicio}"  class="btn btn-primary btn-lg">Regresar</button>
             </div>
         </div>
     </div>
